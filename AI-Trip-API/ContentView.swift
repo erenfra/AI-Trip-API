@@ -8,19 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var apiManager: APIManager
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("London Activities")
+            List {
+                ForEach(apiManager.plan, id: \.self) { activity in
+                    
+                }
+                
+            }
+            .padding()
         }
-        .padding()
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(apiManager: APIManager())
     }
 }

@@ -11,6 +11,8 @@
 		24A29E072A3419DB00120D50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29E062A3419DB00120D50 /* ContentView.swift */; };
 		24A29E092A3419E500120D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A29E082A3419E500120D50 /* Assets.xcassets */; };
 		24A29E0C2A3419E500120D50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A29E0B2A3419E500120D50 /* Preview Assets.xcassets */; };
+		24A29E132A341A2700120D50 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29E122A341A2700120D50 /* APIModel.swift */; };
+		24A29E152A341A7E00120D50 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A29E142A341A7E00120D50 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		24A29E062A3419DB00120D50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24A29E082A3419E500120D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24A29E0B2A3419E500120D50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24A29E122A341A2700120D50 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		24A29E142A341A7E00120D50 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				24A29E062A3419DB00120D50 /* ContentView.swift */,
 				24A29E082A3419E500120D50 /* Assets.xcassets */,
 				24A29E0A2A3419E500120D50 /* Preview Content */,
+				24A29E122A341A2700120D50 /* APIModel.swift */,
+				24A29E142A341A7E00120D50 /* APIManager.swift */,
 			);
 			path = "AI-Trip-API";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A29E152A341A7E00120D50 /* APIManager.swift in Sources */,
 				24A29E072A3419DB00120D50 /* ContentView.swift in Sources */,
+				24A29E132A341A2700120D50 /* APIModel.swift in Sources */,
 				24A29E052A3419DB00120D50 /* AI_Trip_APIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
