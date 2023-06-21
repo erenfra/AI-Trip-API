@@ -22,7 +22,7 @@ class APIManager: ObservableObject {
     func getRate() async throws {
        
         let headers = [
-            "X-RapidAPI-Key": "14df2f2c86msh7da077531c8017fp13b66fjsn561ff3066976",
+            "X-RapidAPI-Key": "api key",
             "X-RapidAPI-Host": "ai-trip-planner.p.rapidapi.com"
         ]
 
