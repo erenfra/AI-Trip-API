@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct AI_Trip_APIApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView(apiManager: APIManager())
+
     }
+  }
 }

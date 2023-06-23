@@ -20,7 +20,7 @@ struct APIModel: Codable, Identifiable {
 }
 
 // MARK: - Plan
-struct Plan: Codable, Hashable, Equatable {
+struct Plan: Codable {
     let day: Int
     let activities: [Activity]
 }
